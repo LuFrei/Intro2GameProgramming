@@ -303,12 +303,12 @@ GameObject:
   serializedVersion: 5
   m_Component:
   - component: {fileID: 349849926}
-  - component: {fileID: 349849928}
   - component: {fileID: 349849927}
   - component: {fileID: 349849929}
   - component: {fileID: 349849930}
   - component: {fileID: 349849931}
   - component: {fileID: 349849932}
+  - component: {fileID: 349849928}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -323,7 +323,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 349849925}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -13.9, y: -6.2, z: 0}
+  m_LocalPosition: {x: -13.97, y: -6.12, z: 0}
   m_LocalScale: {x: 0.3, y: 0.3, z: 0.3}
   m_Children:
   - {fileID: 987398320}
@@ -362,7 +362,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 07453533244c3394c8e5e484d05b5e5e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3c92b6314bf0c6f4b8a882ac60bfb90f, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -384,10 +384,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -1.42, y: 0.6}
+  m_Offset: {x: 0, y: 0.65}
   m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
+    border: {x: 2.79, y: 3.59, z: 5.5899997, w: 2.3899999}
+    pivot: {x: 0.4020713, y: 0.5}
     oldSize: {x: 12.8, y: 12.8}
     newSize: {x: 12.8, y: 12.8}
     adaptiveTilingThreshold: 0.5
@@ -395,7 +395,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 4.66, y: 6.84}
+  m_Size: {x: 4.691305, y: 6.75}
   m_EdgeRadius: 0
 --- !u!114 &349849929
 MonoBehaviour:
@@ -449,8 +449,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2ecb7565ec5fb8444a7b5061664a0c28, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  jumpHeight: 0
+  moveSpeed: 7.5
+  jumpHeight: 20
   groundCheck: {fileID: 987398320}
   groundCheckRadius: 0.1
   whatIsGround:
@@ -748,7 +748,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 987398319}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.23, y: -2.69, z: 0}
+  m_LocalPosition: {x: -0.09, y: -2.69, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 349849926}
