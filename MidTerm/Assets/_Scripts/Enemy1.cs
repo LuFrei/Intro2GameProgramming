@@ -20,10 +20,8 @@ public class Enemy1 : MonoBehaviour {
     void Update()
     {
 
-        if (!detector.isDetected)
-        {
             rb2d.velocity = new Vector2(-speed, 0);
-        }
+
 
     }
 }
