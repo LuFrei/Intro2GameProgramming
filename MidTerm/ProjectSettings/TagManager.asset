@@ -9,6 +9,14 @@ TagManager:
   - Enemy
   - Ladder
   - SwordSwipe
+  - Shield
+  - Enemy Wall
+  - Killzone
+  - Sword
+  - Bow
+  - Point
+  - HP
+  - ArrowWall
   layers:
   - Default
   - TransparentFX
